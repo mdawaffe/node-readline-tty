@@ -1,0 +1,20 @@
+{
+  "name": "node-readline-tty",
+  "version": "1.0.0",
+  "description": "Ensures readline's input is connected to the TTY (in case a script accepts other input on STDIN).",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha && echo '' | mocha"
+  },
+  "keywords": [
+    "readline",
+    "tty",
+    "terminal"
+  ],
+  "author": "mdawaffe",
+  "license": "GPL-2.0+",
+  "repository": "mdawaffe/node-readline-tty",
+  "devDependencies": {
+    "mocha": "3.2.0"
+  }
+}
