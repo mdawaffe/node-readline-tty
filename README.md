@@ -15,6 +15,20 @@ Installation
 
 `npm install mdawaffe/node-readline-tty`
 
+Usage
+-----
+
+```js
+const Readline = require( 'node-readline-tty' );
+
+let readline = Readline.createInterfaceFromTTY( {
+	output: process.stdout,
+	// ...
+} );
+```
+
+See Node's [`Readline.createInterface()` documentation](https://nodejs.org/api/readline.html#readline_readline_createinterface_options).
+
 Testing
 -------
 
